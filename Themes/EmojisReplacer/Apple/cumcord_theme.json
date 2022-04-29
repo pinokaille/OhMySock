@@ -1,0 +1,9 @@
+{
+  "name": "Apple emojis",
+  "description": "Replaces Discord's Emojis with Emojis of a different Provider (Apple, Facebook...)",
+  "author": "mwittrien",
+  "license": "GPL-2.0",
+  "media": [
+    "https://camo.githubusercontent.com/b3a595d3d55a160d1d21ed8d88329edfac01372d8dca98407073c43206b75bce/68747470733a2f2f6d776974747269656e2e6769746875622e696f2f426574746572446973636f72644164646f6e732f5468656d65732f456d6f6a695265706c6163652f5f7265732f73637265656e73686f74312e706e67"
+  ]
+}
