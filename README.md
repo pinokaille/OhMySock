@@ -1,3 +1,3 @@
 Repo link -> https://pinokaille.github.io/OhMySock
 
-##Themes list
+### You can make suggestions by creating an issue with the link of the theme (BetterDiscord, github repo...)
