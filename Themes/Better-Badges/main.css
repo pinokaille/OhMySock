@@ -1,0 +1,6 @@
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css');
+:root{
+    --badge-size: 22px;
+    --badge-margin: 1.5px;
+    --badges-everywhere-size: 15px;
+}
