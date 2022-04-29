@@ -1,0 +1,13 @@
+@import url(https://takosthings.github.io/Fluent-Discord/Fluent-Discord.css);
+
+:root {
+--fluent-accent-hue-sat: 323, 100%;
+--fluent-accent-lightness: 45%;
+  --fluent-text-on-accent-color: 0, 0, 0;
+  --fluent-acrylic-background: url(http://choualbox.com/Img/1610201164347.jpg);
+  --fluent-acrylic-background-blur: 24px;
+  --fluent-acrylic-background-dimness: 75%;
+  --fluent-guilds-icon-size: 30px;
+  --fluent-chatbox-gif-button-visibility: true;
+  --fluent-chatbox-stickers-button-visibility: true;
+}

@@ -4,5 +4,8 @@
     "description": "Custom theme repo for cumcord",
     "author": "Pinokaille"
   },
-  "themes": ["https://pinokaille.github.io/r/Themes/FluentTheme-pink/main.css"]
+  "themes": [
+    "https://pinokaille.github.io/r/Themes/FluentTheme-pink/main.css",
+    "https://pinokaille.github.io/r/Themes/FluentTheme/main.css"
+  ]
 }

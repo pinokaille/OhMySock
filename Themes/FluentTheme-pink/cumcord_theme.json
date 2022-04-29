@@ -1,0 +1,10 @@
+{
+  "name": "Fluent-Discord-pink",
+  "description": "A Windows 11 theme for Discord",
+  "author": "TakosThings",
+  "license": "MIT",
+  "media": [
+    "https://raw.githubusercontent.com/TakosThings/Fluent-Discord/develop/images/ui-0.0.13.png",
+    "https://raw.githubusercontent.com/TakosThings/Fluent-Discord/develop/images/ui-0.0.3.png"
+  ]
+}
