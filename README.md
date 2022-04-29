@@ -1,1 +1,1 @@
-Repo link -> https://pinokaille.github.io/cumcord-squidgamerepo/
+Repo link -> https://pinokaille.github.io/OhMySock
