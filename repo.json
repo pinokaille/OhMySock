@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "OhMySock",
+    "description": "Custom theme repo for cumcord",
+    "author": "Pinokaille"
+  },
+  "themes": ["https://pinokaille.github.io/r/Themes/FluentTheme-pink/main.css"]
+}
