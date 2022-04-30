@@ -3,140 +3,96 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 :root {
-  --background-primary: #36393f !important;
-  --background-secondary: #2f3136 !important;
-  --background-secondary-alt: #292b2f !important;
-  --background-tertiary: #202225 !important;
-  --background-floating: #18191c !important;
-  --background-accent: #4f545c !important;
-  --border-color: var(--background-modifier-accent);
-  --background-mentioned: hsla(
-    38,
-    calc(var(--saturation-factor, 1) * 95.7%),
-    54.1%,
-    0.1
-  ) !important;
-  --background-mentioned-hover: hsla(
-    38,
-    calc(var(--saturation-factor, 1) * 95.7%),
-    54.1%,
-    0.08
-  ) !important;
-  --background-modifier-hover: #4f545c29 !important;
-  --background-modifier-active: #4f545c3d !important;
-  --text-normal: #dcddde !important;
-  --text-muted: #72767d !important;
-  --text-link: hsl(
-    197,
-    calc(var(--saturation-factor, 1) * 100%),
-    47.8%
-  ) !important;
-  --settings-icon-color: var(--interactive-normal) !important;
-  --tab-selected: var(--background-modifier-selected) !important;
-  --switch: hsl(
-    218,
-    calc(var(--saturation-factor, 1) * 4.6%),
-    46.9%
-  ) !important;
-  --button-background: #4f545c !important;
-  --button-background-hover: #5d6269 !important;
-  --button-background-active: #72767d !important;
-  --button-accent: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);
-  --button-accent-hover: var(--brand-experiment-560) !important;
-  --button-accent-active: var(--brand-experiment-600) !important;
-  --button-destructive: hsl(
-    359,
-    calc(var(--saturation-factor, 1) * 82.6%),
-    59.4%
-  ) !important;
-  --button-destructive-hover: hsl(
-    359,
-    calc(var(--saturation-factor, 1) * 56.7%),
-    48%
-  ) !important;
-  --button-destructive-active: hsl(
-    359,
-    calc(var(--saturation-factor, 1) * 56.3%),
-    40.4%
-  ) !important;
-  --background-modifier-selected: #4f545c52 !important;
-  --text-positive: hsl(
-    139,
-    calc(var(--saturation-factor, 1) * 66.8%),
-    58.6%
-  ) !important;
-  --interactive-selected: var(--interactive-active) !important;
-  --background-modifier-accent: #ffffff0f !important;
-  --background-message-hover: #04040512 !important;
-  --interactive-normal: #b9bbbe !important;
-  --interactive-muted: #4f545c !important;
-  --channels-default: #8e9297 !important;
-  --header-primary: #fff !important;
-  --header-secondary: #b9bbbe !important;
-  --control-brand-foreground: hsl(
-    235,
-    calc(var(--saturation-factor, 1) * 86.1%),
-    77.5%
-  ) !important;
-  --info-warning-foreground: hsl(
-    38,
-    calc(var(--saturation-factor, 1) * 95.7%),
-    54.1%
-  ) !important;
-  --activity-card-background: #202225 !important;
-  --interactive-active: #fff !important;
-  --interactive-hover: #dcddde !important;
-  --accent-color: var(--brand-experiment);
-  --channeltextarea-background: #40444b;
+  /* set to 'unset' to show */
+  --scrollbars: none;
+  /* user notes */
+  --notes: none;
+  /* direct message box */
+  --message: none;
+  /* set to '4px solid' to show */
+  --embed-color: none;
+  /* set to 'Inter', sans-serif !important to use Inter font*/
+  --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  --border-radius-1: 10px;
+  --border-radius-2: 8px;
 }
-.theme-light,
+
+/* Purple */
 .theme-dark {
-  --brand-experiment: hsl(
-    235,
-    calc(var(--saturation-factor, 1) * 85.6%),
-    64.7%
-  ) !important;
+  --accent-color: #d8c4f1 !important;
+  --background-1: #1a181e !important;
+  --background-2: #221f26 !important;
+  --border-color: #2d2832 !important;
+  --background-mentioned: #d8c4f110 !important;
+  --background-mentioned-hover: #d8c4f115 !important;
+  --background-modifier-hover: #2a2730 !important;
+  --background-modifier-active: #3d3745 !important;
+  --text-normal: var(--accent-color) !important;
+  --text-muted: #7d718c !important;
+  --text-link: #f3edfb !important;
+  --settings-icon-color: #a293b4 !important;
+  --tab-selected: #3d3745 !important;
+  --switch: #47404f !important;
+  --button-background: #302b36 !important;
+  --button-background-hover: #3d3745 !important;
+  --button-background-active: #595063 !important;
+  --button-accent-hover: #e3d6f8 !important;
+  --button-accent-active: #be9be7 !important;
+  --button-destructive: #fb7c7c !important;
+  --button-destructive-hover: #ff929b !important;
+  --button-destructive-active: #fa4a4a !important;
 }
-.contentRegionScroller-2_GT_N {
-  background-color: var(--background-primary) !important;
+.theme-light {
+  --accent-color: #9f74e7 !important;
+  --background-1: #ffffff !important;
+  --background-2: #f9f7f9 !important;
+  --border-color: transparent !important;
+  --background-mentioned: #9f74e710 !important;
+  --background-mentioned-hover: #9f74e715 !important;
+  --background-modifier-hover: transparent !important;
+  --background-modifier-active: #c6bec9 !important;
+  --text-normal: #402b4d !important;
+  --text-muted: #9d91a3 !important;
+  --text-link: #813fd0 !important;
+  --settings-icon-color: #776880 !important;
+  --tab-selected: var(--background-1) !important;
+  --switch: #d4ced7 !important;
+  --button-background: #ebe8ec !important;
+  --button-background-hover: #ddd8df !important;
+  --button-background-active: #c2bac5 !important;
+  --button-accent-hover: #9f74e7 !important;
+  --button-accent-active: #813fd0 !important;
+  --button-destructive: #fb7c7c !important;
+  --button-destructive-hover: #ff929b !important;
+  --button-destructive-active: #fa4a4a !important;
 }
-.sidebarRegionScroller-FXiQOh {
-  background: var(--background-secondary) !important;
-}
-.childWrapper-1j_1ub {
-  color: var(--text-normal) !important;
-}
-.circleIconButton-1QV--U {
-  color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);
-}
-.container-2nx-BQ:not([style*="218"]),
-.bd-switch-checked .bd-switch-body {
-  background-color: hsl(
-    139,
-    calc(var(--saturation-factor, 1) * 47.3%),
-    43.9%
-  ) !important;
-}
-.body-1Ukv50,
-.activity-3v9l4T,
-.profileBanner-1owKI5,
-.avatar-2Vndt_,
-.headerTop-2y3V6H,
-.headerTop-3GPUSF,
-.headerTop-2cWpdB,
-.activity-fViXj7,
-.body-2wLx-E,
-.topSection-13QKHs,
-.banner-1YaD3N:not(.settingsBanner-1eDJ5w),
-.avatar-3QF_VA,
-.aboutMeSection---MkQa,
-.footer-3naVBw,
-.footer-1N3bR3,
-.bodyInnerWrapper-2bQs1k,
-.profileBannerPreview-3_l0Wd,
-.userPopout-2j1gM4,
-.bannerNormal-22rPhb {
-  background-color: var(--background-floating) !important;
+:root {
+  --background-primary: var(--background-1) !important;
+  --background-primary-alt: var(--background-1) !important;
+  --background-secondary: var(--background-1) !important;
+  --background-secondary-alt: var(--background-1) !important;
+  --background-tertiary: var(--background-2) !important;
+  --background-accent-gradient: var(--background-2) !important;
+  --background-floating: var(--background-1) !important;
+  --background-accent: var(--background-2) !important;
+  --background-modifier-selected: var(--accent-color) !important;
+  --text-positive: var(--text-normal) !important;
+  --interactive-selected: var(--background-primary) !important;
+  --background-modifier-accent: transparent !important;
+  --background-message-hover: transparent !important;
+  --interactive-normal: var(--text-normal) !important;
+  --interactive-muted: var(--button-background-active) !important;
+  --channels-default: var(--text-muted) !important;
+  --header-primary: var(--text-normal) !important;
+  --header-secondary: var(--text-muted) !important;
+  --control-brand-foreground: var(--accent-color) !important;
+  --info-warning-foreground: var(--accent-color) !important;
+  --activity-card-background: var(--background-1) !important;
+  --brand-experiment: var(--accent-color) !important;
+  --button-accent: var(--accent-color) !important;
+  --interactive-active: var(--text-normal) !important;
+  --interactive-hover: var(--interactive-normal) !important;
 }
 
 /*-----------DON'T CHANGE------------*/
